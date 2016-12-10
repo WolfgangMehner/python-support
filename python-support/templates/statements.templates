@@ -1,0 +1,20 @@
+§ =============================================================
+§  Statements
+§ =============================================================
+
+== Statements.if == below, map:sif, sc:i ==
+if <CURSOR>:
+	<-IF_BLOCK-><SHIFT>
+== Statements.if, else == below, map:sie, sc:i ==
+if <CURSOR>:
+	<-IF_BLOCK-><SHIFT>
+else:
+	<+ELSE_BLOCK+>
+== Statements.elif == below, map:sei, sc:e ==
+elif <CURSOR>:
+	<-ELSE_BLOCK-><SHIFT>
+== Statements.else == below, map:sel, sc:e ==
+else:
+	<CURSOR><SHIFT>
+== ENDTEMPLATE ==
+

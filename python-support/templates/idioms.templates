@@ -1,0 +1,8 @@
+§ =============================================================
+§  Idioms
+§ =============================================================
+
+== Idioms.function definition == below, map:if, sc:f ==
+def |?FUNCTION_NAME| ( <CURSOR>|PARAMETER_LIST| ):
+	<-BODY-><SHIFT>
+== ENDTEMPLATE ==
