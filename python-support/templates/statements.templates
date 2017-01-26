@@ -2,6 +2,27 @@
 §  Statements
 § =============================================================
 
+§ -------------------------------------------------------------
+§  Loops and Context
+§ -------------------------------------------------------------
+
+== Statements.for == below, map:sf, sc:f ==
+for <CURSOR> in <+LIST+>:
+	<-LOOP_BODY-><SHIFT>
+== Statements.while == below, map:swh, sc:w ==
+while <CURSOR>:
+	<-LOOP_BODY-><SHIFT>
+== Statements.with == below, map:swi, sc:w ==
+with <CURSOR>:
+	<-SUITE-><SHIFT>
+== ENDTEMPLATE ==
+
+§ -------------------------------------------------------------
+§  If-Else
+§ -------------------------------------------------------------
+
+== SEP: Statements.sep_if ==
+
 == Statements.if == below, map:sif, sc:i ==
 if <CURSOR>:
 	<-IF_BLOCK-><SHIFT>

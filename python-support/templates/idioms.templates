@@ -2,7 +2,32 @@
 §  Idioms
 § =============================================================
 
+§ -------------------------------------------------------------
+§  Functions
+§ -------------------------------------------------------------
+
 == Idioms.function definition == below, map:if, sc:f ==
 def |?FUNCTION_NAME| ( <CURSOR>|PARAMETER_LIST| ):
 	<-BODY-><SHIFT>
 == ENDTEMPLATE ==
+
+§ -------------------------------------------------------------
+§  Iterators
+§ -------------------------------------------------------------
+
+== SEP: Idioms.sep_iter ==
+
+== LIST: idioms_iterators == hash ==
+	'dict items'  : 'key, value in <+dict+>.iteritems ()',
+	'dict keys'   : 'key in <+dict+>.iterkeys ()',
+	'dict values' : 'value in <+dict+>.itervalues ()',
+	'list'        : ' in <+list+>',
+	'range'       : ' in range ( <+start+>, <+stop+>, [+step+] )',
+== ENDLIST ==
+
+== Idioms.iterators == expandmenu, map:ii, sc:i ==
+|PickList( 'iterate over', 'idioms_iterators' )|
+for <CURSOR>|PICK|:
+	<-LOOP_BODY-><SHIFT>
+== ENDTEMPLATE ==
+
